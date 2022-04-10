@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+user_flour:
+  quantity: '5 packages'
+  ingredient: flour
+
+user_cornmeal:
+  quantity: '10 bags'
+  ingredient: cornmeal
+
+user_sugar:
+  quantity: '1 package'
+  ingredient: sugar
+
+user_salt:
+  quantity: '1 kg'
+  ingredient: salt
+
+user_baking_powder:
+  quantity: '100 g'
+  ingredient: baking_powder
+
+user_egg:
+  quantity: '12'
+  ingredient: egg

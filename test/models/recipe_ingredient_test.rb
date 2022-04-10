@@ -11,7 +11,7 @@ class RecipeIngredientTest < ActiveSupport::TestCase
     end
   end
 
-  test 'cannot create 2 ingredient for the same recipe' do
+  test 'cannot create 2 ingredients for the same recipe' do
     assert_raises ActiveRecord::RecordInvalid do
       RecipeIngredient.create!(
         ingredient: ingredients(:flour),
