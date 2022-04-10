@@ -21,7 +21,6 @@ I suppose rails is installed. To create database with fixture fixture as seed
 cd diner_tiner_api
 rails db:create
 rails db:migrate
-rails db:fixtures:load
 ```
 
 ### Ember
