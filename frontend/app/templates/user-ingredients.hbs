@@ -1,7 +1,5 @@
 <h2>My ingredients</h2>
 
-<AddButton></AddButton>
-
 <table class='user-ingredients-table'>
   <thead>
     <th>Quantity</th>
@@ -9,6 +7,11 @@
   </thead>
 
   <tbody>
+  <tr>
+    <td>{{input type='text' name='quantity'}}</td>
+    <td>{{ingredient-select}}</td>
+    <td>{{add-button quantity='3' ingredientId= 3}}</td>
+  </tr>
   {{#each @model as |userIngredient|}}
     <tr>
       <td class='user-ingredient-quantity'>

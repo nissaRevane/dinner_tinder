@@ -5,10 +5,10 @@ export default Component.extend({
   store: service(),
 
   actions: {
-    start() {
+    create(quantity, ingredientId) {
       let newRecord = this.store.createRecord('userIngredient', {
-        quantity: 'Undefined ingredient',
-        ingredient: 1452,
+        quantity: quantity,
+        ingredientId: ingredientId,
       });
       newRecord.save();
     },
