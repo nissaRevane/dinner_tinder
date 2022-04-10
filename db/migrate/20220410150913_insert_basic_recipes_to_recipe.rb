@@ -4,7 +4,7 @@ class InsertBasicRecipesToRecipe < ActiveRecord::Migration[6.1]
       title: "Golden Sweet Cornbread",
       cook_time: 25,
       prep_time: 10,
-      ratings: 474,
+      rating: 474,
       cuisine: "",
       category: "Cornbread",
       author: "bluegirl",
