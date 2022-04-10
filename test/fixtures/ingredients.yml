@@ -1,0 +1,35 @@
+flour:
+  name: flour
+  category: cereal
+
+cornmeal:
+  name: cornmeal
+  category: cereal
+
+sugar:
+  name: sugar
+  category: other
+
+salt:
+  name: salt
+  category: other
+
+baking_powder:
+  name: 'baking powder'
+  category: other
+
+egg:
+  name: egg
+  category: animal
+
+milk:
+  name: milk
+  category: milk_product
+
+vegetable_oil:
+  name: 'vegetable oil'
+  category: oil
+
+biscuit_dough:
+  name: 'biscuit dough'
+  category: cereal

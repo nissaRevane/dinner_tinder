@@ -1,0 +1,39 @@
+golden_sweet_cornbread_flour:
+  quantity: '1 cup'
+  ingredient: flour
+  recipe: golden_sweet_cornbread
+
+golden_sweet_cornbread_cornmeal:
+  quantity: '1 cup'
+  ingredient: cornmeal
+  recipe: golden_sweet_cornbread
+
+golden_sweet_cornbread_sugar:
+  quantity: '⅔ cup'
+  ingredient: sugar
+  recipe: golden_sweet_cornbread
+
+golden_sweet_cornbread_salt:
+  quantity: '1 teaspoon'
+  ingredient: salt
+  recipe: golden_sweet_cornbread
+
+golden_sweet_cornbread_baking_powder:
+  quantity: '3 ½ teaspoons'
+  ingredient: baking_powder
+  recipe: golden_sweet_cornbread
+
+golden_sweet_cornbread_egg:
+  quantity: '1'
+  ingredient: egg
+  recipe: golden_sweet_cornbread
+
+golden_sweet_cornbread_milk:
+  quantity: '1 cup'
+  ingredient: milk
+  recipe: golden_sweet_cornbread
+
+golden_sweet_cornbread_vegetable_oil:
+  quantity: '⅓ cup'
+  ingredient: vegetable_oil
+  recipe: golden_sweet_cornbread
