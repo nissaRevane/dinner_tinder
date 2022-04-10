@@ -1,7 +1,15 @@
-{{page-title "Frontend"}}
+<div class='application-navbar'>
+  <a class='application-title' href='/'>Diner Tinder</a>
 
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+  <nav class='navbar-links'>
+    <LinkTo class='navbar-link recipes-link' @route='recipes'>
+      Recipes
+    </LinkTo>
+  </nav>
+</div>
 
-{{outlet}}
+<div class='main-page'>
+  {{outlet}}
+</div>
+
+

@@ -1,0 +1,7 @@
+<ul class='ingredient-list'>
+  {{#each @recipeIngredients as |recipeIngredient|}}
+    <li>
+      {{concat recipeIngredient.quantity ' ' recipeIngredient.ingredient.name}}
+    </li>
+  {{/each}}
+</ul>

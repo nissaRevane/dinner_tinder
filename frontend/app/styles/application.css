@@ -1,0 +1,30 @@
+.application-navbar {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.application-navbar .application-title {
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 80px;
+  text-decoration: none;
+}
+
+.application-navbar .navbar-link  {
+  line-height: 80px;
+  text-decoration: none;
+  color: white;
+}
+
+.application-navbar .navbar-link:hover  {
+  font-weight: bold;
+}
+
+.main-page {
+  padding: 20px;
+}
+

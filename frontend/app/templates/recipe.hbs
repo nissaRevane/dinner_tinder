@@ -1,0 +1,16 @@
+<div class='recipe'>
+  <img class='recipe-image' src={{@model.imageUrl}}>
+
+  <h2 class='recipe-title'>{{@model.title}}</h2>
+  <h3 class='recipe-author'>by {{@model.author}}</h3>
+
+  <table class='recipe-table'>
+    <tr><th>Cook Time</th><td>{{@model.cookTime}}</td></tr>
+    <tr><th>Preparation time</th><td>{{@model.prepTime}}</td></tr>
+    <tr><th>Rating</th><td>{{@model.rating}}</td></tr>
+    <tr><th>Cuisine</th><td>{{@model.cuisine}}</td></tr>
+    <tr><th>Category</th><td>{{@model.category}}</td></tr>
+  </table>
+
+  <IngredientList @recipeIngredients={{@model.recipeIngredients}} />
+</div>

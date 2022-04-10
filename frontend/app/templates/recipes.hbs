@@ -1,0 +1,23 @@
+<h2>Recipes</h2>
+
+<table class='recipes-table'>
+  <thead>
+  <th>Title</th>
+  <th>Author</th>
+  <th>Rating</th>
+  </thead>
+
+  <tbody>
+  {{#each @model as |recipe|}}
+    <tr>
+      <td class='recipe-title'>
+        <LinkTo class='recipe-title-link' @route='recipe' @model={{recipe}}>
+          {{recipe.title}}
+        </LinkTo>
+      </td>
+      <td class='recipe-author'>{{recipe.author}}</td>
+      <td class='recipe-rating'>{{recipe.rating}}</td>
+    </tr>
+  {{/each}}
+  </tbody>
+</table>

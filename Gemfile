@@ -23,6 +23,7 @@ gem 'puma', '~> 5.0'
 gem 'bootsnap', '>= 1.4.4', require: false
 
 gem 'ember-cli-rails', '~> 0.10.0'
+gem 'active_model_serializers', '~> 0.8.1'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
