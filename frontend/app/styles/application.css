@@ -18,6 +18,7 @@
   line-height: 80px;
   text-decoration: none;
   color: white;
+  margin-left: 10px;
 }
 
 .application-navbar .navbar-link:hover  {

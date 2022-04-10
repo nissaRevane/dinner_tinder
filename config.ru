@@ -2,5 +2,7 @@
 
 require_relative "config/environment"
 
+use ActionDispatch::Flash
+
 run Rails.application
 Rails.application.load_server

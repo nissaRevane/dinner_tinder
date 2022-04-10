@@ -1,0 +1,8 @@
+{{input type=@inputType name=@inputName value=@inputValue}}
+<button
+  class='save-update-button'
+  type="button"
+  {{action "update" @recordId @inputName @inputValue}}
+>
+  Save
+</button>
